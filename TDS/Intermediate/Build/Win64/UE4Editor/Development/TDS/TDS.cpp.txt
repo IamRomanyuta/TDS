@@ -1,0 +1,2 @@
+C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Development\TDS\Definitions.TDS.h
+C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Source\TDS\TDS.h

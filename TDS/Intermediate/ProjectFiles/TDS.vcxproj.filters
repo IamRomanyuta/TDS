@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TDS.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{ED1C4631-DEFC-45D6-B076-56CDEE26DB2D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TDS.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TDSEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2DA0BB5E-F335-4531-B0F0-8A0C6D57735F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TDS">
+      <UniqueIdentifier>{716D08C3-FF85-4862-B5E8-0364D25C7782}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TDS\TDS.Build.cs">
+      <Filter>Source\TDS</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TDS\TDS.cpp">
+      <Filter>Source\TDS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TDS\TDS.h">
+      <Filter>Source\TDS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TDS\TDSCharacter.cpp">
+      <Filter>Source\TDS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TDS\TDSCharacter.h">
+      <Filter>Source\TDS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TDS\TDSGameMode.cpp">
+      <Filter>Source\TDS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TDS\TDSGameMode.h">
+      <Filter>Source\TDS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TDS\TDSPlayerController.cpp">
+      <Filter>Source\TDS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TDS\TDSPlayerController.h">
+      <Filter>Source\TDS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

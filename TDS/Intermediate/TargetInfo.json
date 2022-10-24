@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TDS",
+			"Path": "C:\\Users\\Romanyuta\\Desktop\\Projects\\TDS\\TDS\\Source\\TDS.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TDSEditor",
+			"Path": "C:\\Users\\Romanyuta\\Desktop\\Projects\\TDS\\TDS\\Source\\TDSEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
