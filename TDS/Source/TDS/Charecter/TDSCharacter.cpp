@@ -10,6 +10,8 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Materials/Material.h"
+#include "Kismet/GameplayStatics.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "Engine/World.h"
 
 ATDSCharacter::ATDSCharacter()
@@ -87,4 +89,68 @@ void ATDSCharacter::Tick(float DeltaSeconds)
 			CursorToWorld->SetWorldRotation(CursorR);
 		}
 	}
+	MovementTick(DeltaSeconds);
+}
+
+void ATDSCharacter::SetupPlayerInputComponent(UInputComponent* CustomInputComponent)
+{
+	Super::SetupPlayerInputComponent(CustomInputComponent);
+
+	CustomInputComponent->BindAxis(TEXT("MoveForward"), this, &ATDSCharacter::InputAxisX);
+	CustomInputComponent->BindAxis(TEXT("MoveRight"), this, &ATDSCharacter::InputAxisY);
+}
+
+void ATDSCharacter::InputAxisX(float value)
+{
+	AxisX = value;
+}
+
+void ATDSCharacter::InputAxisY(float value)
+{
+	AxisY = value;
+}
+
+void ATDSCharacter::MovementTick(float DeltaTime)
+{
+	AddMovementInput(FVector(1.0f, 0.0f, 0.0f), AxisX);
+	AddMovementInput(FVector(0.0f, 1.0f, 0.0f), AxisY);
+
+	APlayerController* myController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
+	if (myController)
+	{
+		FHitResult ResultHit;
+		myController->GetHitResultUnderCursorByChannel(ETraceTypeQuery::TraceTypeQuery6, false, ResultHit);
+		UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), ResultHit.Location);
+
+		float FindRotatorResultYaw = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), ResultHit.Location).Yaw;
+		SetActorRotation(FQuat(FRotator(0.0f, FindRotatorResultYaw, 0.0f)));
+	}
+}
+
+void ATDSCharacter::CharecterUpdate()
+{
+	float ResSpeed = 600.f;
+
+	switch(MovementState)
+	{
+	case EMovementState::Aim_State:
+		ResSpeed = MovementInfo.AimSpeed;
+		break;
+	case EMovementState::Walk_State:
+		ResSpeed = MovementInfo.WalkSpeed;
+		break;
+	case EMovementState::Run_State:
+		ResSpeed = MovementInfo.RunSpeed;
+		break;
+	default:
+		break;
+	}
+
+	GetCharacterMovement()->MaxWalkSpeed = ResSpeed;
+}
+
+void ATDSCharacter::ChangeMovementState(EMovementState NewMovementState)
+{
+	MovementState = NewMovementState;
+	CharecterUpdate();
 }

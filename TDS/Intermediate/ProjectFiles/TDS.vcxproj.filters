@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TDS.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{ED1C4631-DEFC-45D6-B076-56CDEE26DB2D}</UniqueIdentifier>
+      <UniqueIdentifier>{D7145989-903A-43C6-9920-A45E80195E3D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TDS.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2DA0BB5E-F335-4531-B0F0-8A0C6D57735F}</UniqueIdentifier>
+      <UniqueIdentifier>{11AD2B35-C6A1-406B-8B69-5DAB9FF53EC1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TDS">
-      <UniqueIdentifier>{716D08C3-FF85-4862-B5E8-0364D25C7782}</UniqueIdentifier>
+      <UniqueIdentifier>{E58C82CB-6E51-449A-8500-4B30DBCB48E4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TDS\TDS.Build.cs">
       <Filter>Source\TDS</Filter>
@@ -41,23 +41,38 @@
     <ClInclude Include="..\..\Source\TDS\TDS.h">
       <Filter>Source\TDS</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\TDS\TDSCharacter.cpp">
-      <Filter>Source\TDS</Filter>
+    <Filter Include="Source\TDS\Charecter">
+      <UniqueIdentifier>{18EEAF7D-EFB7-4189-ACC3-F14518982252}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TDS\Charecter\TDSCharacter.cpp">
+      <Filter>Source\TDS\Charecter</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\TDS\TDSCharacter.h">
-      <Filter>Source\TDS</Filter>
+    <ClInclude Include="..\..\Source\TDS\Charecter\TDSCharacter.h">
+      <Filter>Source\TDS\Charecter</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\TDS\TDSGameMode.cpp">
-      <Filter>Source\TDS</Filter>
+    <Filter Include="Source\TDS\FunctionLibrary">
+      <UniqueIdentifier>{0A820DA8-96CA-429F-A458-265249C7643D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TDS\FunctionLibrary\MovementTypes.cpp">
+      <Filter>Source\TDS\FunctionLibrary</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\TDS\TDSGameMode.h">
-      <Filter>Source\TDS</Filter>
+    <ClInclude Include="..\..\Source\TDS\FunctionLibrary\MovementTypes.h">
+      <Filter>Source\TDS\FunctionLibrary</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\TDS\TDSPlayerController.cpp">
-      <Filter>Source\TDS</Filter>
+    <Filter Include="Source\TDS\Game">
+      <UniqueIdentifier>{94772FFE-2EEA-4B8B-8249-083E218A15BC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TDS\Game\TDSGameMode.cpp">
+      <Filter>Source\TDS\Game</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\TDS\TDSPlayerController.h">
-      <Filter>Source\TDS</Filter>
+    <ClInclude Include="..\..\Source\TDS\Game\TDSGameMode.h">
+      <Filter>Source\TDS\Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TDS\Game\TDSPlayerController.cpp">
+      <Filter>Source\TDS\Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TDS\Game\TDSPlayerController.h">
+      <Filter>Source\TDS\Game</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

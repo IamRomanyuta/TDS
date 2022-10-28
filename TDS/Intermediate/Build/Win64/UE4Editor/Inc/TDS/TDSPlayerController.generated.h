@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TDS_TDSPlayerController_generated_h
 
-#define TDS_Source_TDS_TDSPlayerController_h_12_SPARSE_DATA
-#define TDS_Source_TDS_TDSPlayerController_h_12_RPC_WRAPPERS
-#define TDS_Source_TDS_TDSPlayerController_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define TDS_Source_TDS_TDSPlayerController_h_12_INCLASS_NO_PURE_DECLS \
+#define TDS_Source_TDS_Game_TDSPlayerController_h_12_SPARSE_DATA
+#define TDS_Source_TDS_Game_TDSPlayerController_h_12_RPC_WRAPPERS
+#define TDS_Source_TDS_Game_TDSPlayerController_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define TDS_Source_TDS_Game_TDSPlayerController_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATDSPlayerController(); \
 	friend struct Z_Construct_UClass_ATDSPlayerController_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ATDSPlayerController)
 
 
-#define TDS_Source_TDS_TDSPlayerController_h_12_INCLASS \
+#define TDS_Source_TDS_Game_TDSPlayerController_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesATDSPlayerController(); \
 	friend struct Z_Construct_UClass_ATDSPlayerController_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ATDSPlayerController)
 
 
-#define TDS_Source_TDS_TDSPlayerController_h_12_STANDARD_CONSTRUCTORS \
+#define TDS_Source_TDS_Game_TDSPlayerController_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATDSPlayerController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATDSPlayerController) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define TDS_Source_TDS_TDSPlayerController_h_12_ENHANCED_CONSTRUCTORS \
+#define TDS_Source_TDS_Game_TDSPlayerController_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATDSPlayerController(ATDSPlayerController&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATDSPlayerController)
 
 
-#define TDS_Source_TDS_TDSPlayerController_h_12_PRIVATE_PROPERTY_OFFSET
-#define TDS_Source_TDS_TDSPlayerController_h_9_PROLOG
-#define TDS_Source_TDS_TDSPlayerController_h_12_GENERATED_BODY_LEGACY \
+#define TDS_Source_TDS_Game_TDSPlayerController_h_12_PRIVATE_PROPERTY_OFFSET
+#define TDS_Source_TDS_Game_TDSPlayerController_h_9_PROLOG
+#define TDS_Source_TDS_Game_TDSPlayerController_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TDS_Source_TDS_TDSPlayerController_h_12_PRIVATE_PROPERTY_OFFSET \
-	TDS_Source_TDS_TDSPlayerController_h_12_SPARSE_DATA \
-	TDS_Source_TDS_TDSPlayerController_h_12_RPC_WRAPPERS \
-	TDS_Source_TDS_TDSPlayerController_h_12_INCLASS \
-	TDS_Source_TDS_TDSPlayerController_h_12_STANDARD_CONSTRUCTORS \
+	TDS_Source_TDS_Game_TDSPlayerController_h_12_PRIVATE_PROPERTY_OFFSET \
+	TDS_Source_TDS_Game_TDSPlayerController_h_12_SPARSE_DATA \
+	TDS_Source_TDS_Game_TDSPlayerController_h_12_RPC_WRAPPERS \
+	TDS_Source_TDS_Game_TDSPlayerController_h_12_INCLASS \
+	TDS_Source_TDS_Game_TDSPlayerController_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TDS_Source_TDS_TDSPlayerController_h_12_GENERATED_BODY \
+#define TDS_Source_TDS_Game_TDSPlayerController_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TDS_Source_TDS_TDSPlayerController_h_12_PRIVATE_PROPERTY_OFFSET \
-	TDS_Source_TDS_TDSPlayerController_h_12_SPARSE_DATA \
-	TDS_Source_TDS_TDSPlayerController_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	TDS_Source_TDS_TDSPlayerController_h_12_INCLASS_NO_PURE_DECLS \
-	TDS_Source_TDS_TDSPlayerController_h_12_ENHANCED_CONSTRUCTORS \
+	TDS_Source_TDS_Game_TDSPlayerController_h_12_PRIVATE_PROPERTY_OFFSET \
+	TDS_Source_TDS_Game_TDSPlayerController_h_12_SPARSE_DATA \
+	TDS_Source_TDS_Game_TDSPlayerController_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	TDS_Source_TDS_Game_TDSPlayerController_h_12_INCLASS_NO_PURE_DECLS \
+	TDS_Source_TDS_Game_TDSPlayerController_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -87,7 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> TDS_API UClass* StaticClass<class ATDSPlayerController>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID TDS_Source_TDS_TDSPlayerController_h
+#define CURRENT_FILE_ID TDS_Source_TDS_Game_TDSPlayerController_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

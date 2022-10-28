@@ -7,10 +7,12 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\TDSEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Development\TDS\TDS.cpp.obj"
 "C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Development\TDS\TDSCharacter.cpp.obj"
+"C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Development\TDS\MovementTypes.cpp.obj"
 "C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Development\TDS\TDSGameMode.cpp.obj"
 "C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Development\TDS\TDSPlayerController.cpp.obj"
+"C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Development\TDS\TDS.cpp.obj"
+"C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Development\TDS\MovementTypes.gen.cpp.obj"
 "C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Development\TDS\TDS.init.gen.cpp.obj"
 "C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Development\TDS\TDSCharacter.gen.cpp.obj"
 "C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Development\TDS\TDSGameMode.gen.cpp.obj"

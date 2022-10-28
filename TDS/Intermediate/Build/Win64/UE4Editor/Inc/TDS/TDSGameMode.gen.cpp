@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "TDS/TDSGameMode.h"
+#include "TDS/Game/TDSGameMode.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,8 +41,8 @@ void EmptyLinkFunctionForGeneratedCodeTDSGameMode() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATDSGameMode_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
-		{ "IncludePath", "TDSGameMode.h" },
-		{ "ModuleRelativePath", "TDSGameMode.h" },
+		{ "IncludePath", "Game/TDSGameMode.h" },
+		{ "ModuleRelativePath", "Game/TDSGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeTDSGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATDSGameMode, 2335454265);
+	IMPLEMENT_CLASS(ATDSGameMode, 3870592194);
 	template<> TDS_API UClass* StaticClass<ATDSGameMode>()
 	{
 		return ATDSGameMode::StaticClass();

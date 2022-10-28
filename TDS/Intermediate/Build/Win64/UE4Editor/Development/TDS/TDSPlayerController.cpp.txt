@@ -1,5 +1,5 @@
 C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Development\TDS\Definitions.TDS.h
-C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Source\TDS\TDSPlayerController.h
+C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Source\TDS\Game\TDSPlayerController.h
 C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Inc\TDS\TDSPlayerController.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\Blueprint/AIBlueprintHelperLibrary.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIBlueprintHelperLibrary.generated.h
@@ -14,11 +14,13 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\XRGestureConfig.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\XRGestureConfig.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayFunctionLibrary.generated.h
-C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Source\TDS\TDSCharacter.h
+C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Source\TDS\Game\../Charecter/TDSCharacter.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Source\TDS\Charecter\../FunctionLibrary/MovementTypes.h
+C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Inc\TDS\MovementTypes.generated.h
 C:\Users\Romanyuta\Desktop\Projects\TDS\TDS\Intermediate\Build\Win64\UE4Editor\Inc\TDS\TDSCharacter.generated.h

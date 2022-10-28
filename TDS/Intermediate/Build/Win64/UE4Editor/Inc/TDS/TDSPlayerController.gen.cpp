@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "TDS/TDSPlayerController.h"
+#include "TDS/Game/TDSPlayerController.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,8 +41,8 @@ void EmptyLinkFunctionForGeneratedCodeTDSPlayerController() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATDSPlayerController_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Collision Rendering Utilities|Transformation" },
-		{ "IncludePath", "TDSPlayerController.h" },
-		{ "ModuleRelativePath", "TDSPlayerController.h" },
+		{ "IncludePath", "Game/TDSPlayerController.h" },
+		{ "ModuleRelativePath", "Game/TDSPlayerController.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATDSPlayerController_Statics::StaticCppClassTypeInfo = {
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeTDSPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATDSPlayerController, 192074698);
+	IMPLEMENT_CLASS(ATDSPlayerController, 1742141885);
 	template<> TDS_API UClass* StaticClass<ATDSPlayerController>()
 	{
 		return ATDSPlayerController::StaticClass();
